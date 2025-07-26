@@ -49,6 +49,7 @@ public class StepDefinationPlaceValidation extends Utils{
 	    // Write code here that turns the phrase above into concrete actions
 		APIResouces resourceAPI = APIResouces.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
+		System.out.println("Adding this line for git commit from APPlaceFramework");
 		 resspec = new ResponseSpecBuilder().expectStatusCode(200)
 				 .expectContentType(ContentType.JSON).build();
 		 if(method.equalsIgnoreCase("POST")) 
