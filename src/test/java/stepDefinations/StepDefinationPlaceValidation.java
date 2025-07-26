@@ -50,6 +50,7 @@ public class StepDefinationPlaceValidation extends Utils{
 		APIResouces resourceAPI = APIResouces.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
 		System.out.println("Adding this line for git commit from APPlaceFramework");
+		System.out.println("Addting this frok APIPlaceFramework");
 		 resspec = new ResponseSpecBuilder().expectStatusCode(200)
 				 .expectContentType(ContentType.JSON).build();
 		 if(method.equalsIgnoreCase("POST")) 
